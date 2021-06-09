@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <title>Bussiness</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        header{
+            background-image: url(./website-parallax-background-C.jpg);
+            /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./website-parallax-background-C.jpg);  background image is black dark */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        
+        }
+        .nav{
+            float : right;
+            list-style: none;
+            margin-top: 30px;
+            
+
+        }
+        .nav li {
+            display: inline-block;
+            color: ivory;
+
+        }
+        .nav li a {
+            color: ivory;
+            text-decoration: none;
+            padding: 5px 20px;
+            font-family: 'Varela Round', sans-serif;
+            
+            font-size: 20px;
+        
+        }
+        a:hover{
+            background-color: rgba(255, 255, 255, 0.212);
+            border: 1px solid white;
+
+            
+        }
+        .nav li.active a {
+            border: 1px solid white;
+            background-color: rgba(255, 255, 255, 0.212);
+            border-radius: 5px;
+        }
+   .logo img{
+       width: 80px;
+       height: auto;
+       float: left;
+       position: relative;
+       left: 30px;
+       top :20px;
+       
+   }
+   .logotext{
+       color: white;
+       font-family: 'Varela Round', sans-serif;
+       font-size: 15px;
+       position:absolute;
+       float: left;
+       top: 80px;
+       left: 60px;
+       
+   }
+   .row{
+       max-width: 1200px;
+       margin: auto;
+   }
+   .hero{
+       position:absolute;
+       width: 1200px;
+       margin-right: 0px;
+       margin-top: 0px;
+   }
+
+   h1{
+
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    text-align:center;
+    margin-top: 250px;
+}
+   .button{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+   .btn{
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px ;
+    margin-right: 13px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    height: 50px;
+
+
+}
+   .btn-one{
+    background-color: darkcyan;
+    font-family: "roboto", "sans-serif";
+}
+   .btn-two{
+   font-family:"roboto", "sans-serif" ;
+   background-color: darkorange;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="logo">
+                <img src="./PngItem_501922.png" alt="book png">
+              <p class="logotext">  Explosive Tech </p>  
+                
+            </div>
+        <ul class="nav">
+            <li class="active"> <a href="#">Menu</a> </li>
+            <li>  <a href="#">Contact</a></li>
+            <li> <a href="#"> Services</a></li>
+            <li> <a href="#">News</a> </li>
+            <li> <a href="#">FAQ</a></li>
+        </ul>
+    </div>
+    <div class="hero"><h1>You Are Ready For Explore !</h1>
+    <div class="button" >
+    <a href="#" class="btn btn-one">Watch Video</a>
+    <a href="#" class="btn btn-two">Explore More</a>
+    </div>
+    </div>
+    </header>
+</body>
+</html>
